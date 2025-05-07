@@ -11,9 +11,10 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.karinaPerez.laboratorio5.ui.theme.Laboratorio5Theme
+import com.karinaPerez.laboratorio5.views.GeneralViewModel
 import com.karinaPerez.laboratorio5.views.HomeScreen
 
-class MainActivity<GeneralViewModel> : ComponentActivity() {
+class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
